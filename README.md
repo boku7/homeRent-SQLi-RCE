@@ -1,10 +1,10 @@
-# House Rental v1.0 - PDO Bypass SQL Injection - Unauthenticated Code Execution - Change Admin Password
+## House Rental v1.0 - PDO Bypass SQL Injection - Unauthenticated Code Execution - Change Admin Password
 House Rental v1.0 suffers from an unauthenticated SQL Injection vulnerability allowing remote attackers to execute arbitrary code on the hosting webserver via sending a malicious POST request.
-## Exploit Author: Bobby Cooke (boku) & Adeeb Shah (@hyd3sec) 
+### Exploit Author: Bobby Cooke (boku) & Adeeb Shah (@hyd3sec) 
 #### Tested On: Windows 10 Pro (x64_86) + XAMPP | Python 2.7
 ## Vulnerability Description:
 + House Rental v1.0 suffers from an unauthenticated SQL Injection vulnerability allowing remote attackers to execute arbitrary code on the hosting webserver via sending a malicious POST request.
-# Vulnerable Source Code:
+### Vulnerable Source Code:
 ```php
  /config/config.php
    11  try {
