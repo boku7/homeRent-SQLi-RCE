@@ -5,6 +5,10 @@
 # Software Link: https://projectworlds.in/wp-content/uploads/2019/06/home-rental.zip
 # Version: 1.0
 # Tested On: Windows 10 Pro (x64_86) + XAMPP | Python 2.7
+# CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+# OWASP Top Ten 2017: A1:2017-Injection
+# CVSS Base Score: 10.0 | Impact Subscore: 6.0 | Exploitability Subscore: 3.9
+# CVSS Vector: AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
 # Vulnerability Description:
 #   House Rental v1.0 suffers from an unauthenticated SQL Injection vulnerability allowing remote attackers
 #   to execute arbitrary code on the hosting webserver via sending a malicious POST request.
