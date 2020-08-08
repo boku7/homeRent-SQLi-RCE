@@ -1,0 +1,4 @@
+mkdir frames
+ffmpeg -i xss-sessionHarvester.mp4 -vf scale=720:-1:flags=lanczos,fps=10 frames/ffout%03d.png
+gm convert -loop 0 frames/ffout*.png output.gif
+
