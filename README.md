@@ -2,7 +2,9 @@
 ### Exploit Author: Bobby Cooke (boku) & Adeeb Shah (@hyd3sec) 
 + House Rental v1.0 suffers from an unauthenticated SQL Injection vulnerability allowing remote attackers to execute arbitrary code on the hosting webserver via sending a malicious POST request.  
   
-![](homeRentSQLi.gif)
+<p align="center">
+  <img width="600" height="200" src="/homeRentSQLi.gif">
+</p>
   
   - CWE-89: Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
   - OWASP Top Ten 2017: A1:2017-Injection
