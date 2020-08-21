@@ -7,8 +7,8 @@
 # Tested On:          Windows 10 Pro (x64_86) + XAMPP | Python 2.7
 # CWE-89:             Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
 # OWASP Top Ten 2017: A1:2017-Injection
-# CVSS Base Score: 10.0 | Impact Subscore: 6.0 | Exploitability Subscore: 3.9
 # CVSS Vector:        AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
+# CVSS Base Score: 10.0 | Impact Subscore: 6.0 | Exploitability Subscore: 3.9
 # Vulnerability Description:
 ##   Home Rental v1.0 suffers from an unauthenticated SQL Injection vulnerability allowing remote attackers
 ##   to execute SQL statements within the host servers database via sending a maliciously crafted POST request.
