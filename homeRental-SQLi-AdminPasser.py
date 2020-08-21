@@ -12,6 +12,7 @@
 # Vulnerability Description:
 ##   Home Rental v1.0 suffers from an unauthenticated SQL Injection vulnerability allowing remote attackers
 ##   to execute SQL statements within the host servers database via sending a maliciously crafted POST request.
+##   - More Info on Vulnerability: https://github.com/boku7/homeRent-SQLi-RCE
 # Vulnerable Source Code:
 ## /config/config.php
 ###   11  try {
