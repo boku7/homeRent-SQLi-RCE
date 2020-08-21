@@ -1,4 +1,4 @@
-# Exploit Title: House Rental v1.0 - Unauthenticated SQL Injection - Change Admin Password
+# Exploit Title: Home Rental v1.0 - Unauthenticated SQL Injection - Change Admin Password
 # Exploit Author: Bobby Cooke (boku) & Adeeb Shah (@hyd3sec) 
 # Date: 2020-08-07
 # Vendor Homepage: https://projectworlds.in
@@ -10,7 +10,7 @@
 # CVSS Base Score: 10.0 | Impact Subscore: 6.0 | Exploitability Subscore: 3.9
 # CVSS Vector: AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H
 # Vulnerability Description:
-##   House Rental v1.0 suffers from an unauthenticated SQL Injection vulnerability allowing remote attackers
+##   Home Rental v1.0 suffers from an unauthenticated SQL Injection vulnerability allowing remote attackers
 ##   to execute SQL statements within the host servers database via sending a maliciously crafted POST request.
 # Vulnerable Source Code:
 ## /config/config.php
@@ -55,7 +55,7 @@ def sig():
 
 
 def header():
-    head = S[3]+F[2]+'       ---  House Rental v1.0 | SQL Injection - Change Admin Password ---\n'+S[0]
+    head = S[3]+F[2]+'       ---  Home Rental v1.0 | SQL Injection - Change Admin Password ---\n'+S[0]
     return head
 
 def formatHelp(STRING):
