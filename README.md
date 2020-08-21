@@ -33,4 +33,4 @@
 ```
 #### Vendor Homepage: https://projectworlds.in
 #### Software Link: https://projectworlds.in/wp-content/uploads/2019/06/home-rental.zip
-#### Tested On: Windows 10 Pro (x64\_86) + XAMPP | Python 2.7
+
